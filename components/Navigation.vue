@@ -21,6 +21,7 @@ export default {
 <style scoped>
 .navigation {
 }
+
 .navigation__items {
   list-style: none;
   display: flex;

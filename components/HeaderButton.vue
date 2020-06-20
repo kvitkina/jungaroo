@@ -1,5 +1,5 @@
 <template>
-  <button class="header-button header-button_theme_light">
+  <button type="button" class="header-button header-button_theme_light">
     <slot></slot>
   </button>
 </template>
