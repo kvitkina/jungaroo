@@ -1,15 +1,7 @@
-<template>
-  <card></card>
-</template>
+<template></template>
 
 
 <script>
-import Card from "@/components/Card.vue";
-export default {
-  components: {
-    Card: Card
-  }
-};
 </script>
 
 
