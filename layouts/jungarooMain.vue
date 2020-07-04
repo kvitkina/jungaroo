@@ -1,15 +1,18 @@
 <template>
   <div>
     <Header></Header>
+    <Sidebar></Sidebar>
     <nuxt />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Sidebar from "@/components/Sidebar.vue";
 export default {
   components: {
-    Header: Header
+    Header: Header,
+    Sidebar: Sidebar
   }
 };
 </script>
