@@ -3,8 +3,9 @@
 
 <script>
 export default {
-  layout: "jungarooMain"
+  layout: "jungarooMain",
 };
+
 </script>
 <style>
 </style>
