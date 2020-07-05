@@ -1,8 +1,6 @@
 <template>
   <div class="columns">
     <div class="column__task"></div>
-    <div class="column__task"></div>
-    <div class="column__task"></div>
   </div>
 </template>
 
@@ -27,5 +25,4 @@
   overflow: scroll;
   overflow-x: hidden;
 }
-
 </style>
