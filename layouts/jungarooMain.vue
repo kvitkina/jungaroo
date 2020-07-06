@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header></Header>
-    <Sidebar></Sidebar>
+    <Sidebar />
     <nuxt />
   </div>
 </template>
