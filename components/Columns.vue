@@ -1,28 +1,20 @@
 <template>
-  <div class="columns">
-    <div class="column__task"></div>
-  </div>
+  <section class="columns">
+    <slot></slot>
+  </section>
 </template>
 
 <script></script>
 
-
-<style scoped>
+<style>
 .columns {
   display: flex;
   margin: 0 auto;
-  max-width: 100%;
+  width: 90%;
   justify-content: space-between;
   box-sizing: border-box;
   padding: 0 20px;
-}
-
-.column__task {
-  width: 340px;
-  height: 536px;
-  background: #c4c4c4;
-  margin: 0;
-  overflow: scroll;
-  overflow-x: hidden;
+  /*border: 1px solid red;*/
+  background-color: rgb(172, 172, 241);
 }
 </style>

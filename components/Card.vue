@@ -22,6 +22,7 @@
   background: #fff;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.227355);
   border-radius: 2px;
+  margin-bottom: 10px;
 }
 
 .card__title {
@@ -60,7 +61,7 @@
   height: 28px;
   border-radius: 50%;
   background: tomato;
-  font-family: Lato;
+  font-family: Lato, Arial, serif;
   font-style: normal;
   font-weight: 900;
   font-size: 10px;
