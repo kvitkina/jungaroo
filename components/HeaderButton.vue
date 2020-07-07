@@ -19,6 +19,7 @@
   font-size: 13px;
   line-height: 18px;
   text-align: right;
+  cursor: pointer;
 }
 
 .header-button_theme_light {
