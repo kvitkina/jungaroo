@@ -30,6 +30,7 @@ export default {
 
 <style scoped>
 .header {
+  position: fixed;
   display: flex;
   width: 100%;
   padding: 0 32px 0 36px;

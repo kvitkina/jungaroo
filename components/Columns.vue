@@ -9,8 +9,8 @@
 <style>
 .columns {
   display: flex;
-  margin: 34px auto 0 106px;
+  margin: 102px auto 0 106px;
   width: 90%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 </style>
