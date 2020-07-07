@@ -22,7 +22,11 @@
   background: #fff;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.227355);
   border-radius: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
 }
 
 .card__title {

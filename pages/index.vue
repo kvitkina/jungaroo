@@ -41,12 +41,9 @@ export default {
 <style>
 .page {
   min-width: 1020px;
-  height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background-color: hotpink;*/
-  /*border: 2px solid green;*/
 }
 </style>

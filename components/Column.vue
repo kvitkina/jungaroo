@@ -14,6 +14,5 @@
   padding: 10px 18px 12px 10px;
   overflow: scroll;
   overflow-x: hidden;
-  /*border: 1px solid red;*/
 }
 </style>

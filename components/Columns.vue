@@ -9,12 +9,8 @@
 <style>
 .columns {
   display: flex;
-  margin: 0 auto;
+  margin: 34px auto 0 106px;
   width: 90%;
   justify-content: space-between;
-  box-sizing: border-box;
-  padding: 0 20px;
-  /*border: 1px solid red;*/
-  background-color: rgb(172, 172, 241);
 }
 </style>
