@@ -25,6 +25,10 @@
   margin-bottom: 10px;
 }
 
+.card:last-child {
+  margin-bottom: 0;
+}
+
 .card__title {
   text-overflow: ellipsis;
   white-space: nowrap;
