@@ -30,6 +30,7 @@ export default {
 
 <style scoped>
 .header {
+  position: fixed;
   display: flex;
   width: 100%;
   padding: 0 32px 0 36px;
@@ -37,7 +38,7 @@ export default {
   align-items: center;
   background: #ffffff;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;  
 }
 
 .header__line {
