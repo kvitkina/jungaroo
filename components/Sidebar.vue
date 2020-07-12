@@ -1,7 +1,12 @@
 <template>
   <section class="sidebar">
-      <SettingsIcon />
-      <ProfitsIcon />
+    <nuxt-link to="/" exact class="sidebar__settings" :active-class='"active-link"'>
+      <SettingsIcon :color='$route.path === "/" ? "#3591FB" : undefined'/>
+    </nuxt-link>
+
+    <nuxt-link to="/stats" class="sidebar__profits" :active-class='"active-link"'>
+      <ProfitsIcon :color='$route.path === "/stats" ? "#3591FB" : undefined' />
+    </nuxt-link>
   </section>
 </template>
 
@@ -10,6 +15,9 @@
   import ProfitsIcon from '@/components/icons/ProfitsIcon.vue';
 
   export default {
+    mounted () {
+      this.$route.path
+    },
     components: {
       SettingsIcon: SettingsIcon,
       ProfitsIcon: ProfitsIcon
@@ -31,4 +39,44 @@
     align-items: center;
     justify-content: center;
   }
+
+  .sidebar__settings {
+  width: 72px;
+  position: relative;
+  margin-bottom: 34px;
+  padding-left: 15px;
+  }
+
+.sidebar__settings::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 4px;
+  height: 24px;
+  background-color: #FFF;
+}
+
+.sidebar__profits {
+  width: 72px;
+  position: relative;
+  padding-left: 15px;
+  }
+
+.sidebar__profits::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 4px;
+  height: 24px;
+  background-color: #FFF;
+}
+.active-link.sidebar__profits::before {
+  background-color: #3591FB;
+}
+.active-link.sidebar__settings::before {
+  background-color: #3591FB;
+}
+
 </style>
