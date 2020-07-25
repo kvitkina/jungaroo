@@ -1,9 +1,13 @@
-<template></template>
+<template>
+
+</template>
 
 <script>
 export default {
-  layout: "jungarooMain"
+  layout: "jungarooMain",
 };
 </script>
+
 <style>
+
 </style>

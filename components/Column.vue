@@ -1,12 +1,24 @@
 <template>
+<section class="column">
+  <Title></Title>
   <div class="column__task">
     <slot></slot>
   </div>
+  </section>
 </template>
 
-<script></script>
+<script>
+import Title from "@/components/Title.vue";
 
-<style>
+export default {
+  
+  components: {
+    Title: Title,
+  }
+};
+</script>
+
+<style scoped>
 .column__task {
   width: 340px;
   max-height: 600px;
