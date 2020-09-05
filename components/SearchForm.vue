@@ -1,11 +1,11 @@
 <template>
-  <div class="searchform">
-    <button type="button" class="searchform__button">
-      <img class="searchform__image" src="@/assets/images/shape.svg" />
+  <div class="search-form">
+    <button type="button" class="search-form__button">
+      <img class="search-form__image" src="@/assets/images/shape.svg" />
     </button>
-    <form action class="searchform__form" name="search-form">
-      <fieldset class="searchform__search">
-        <input type="text" class="searchform__item" name="search-item" placeholder="Search for .." />
+    <form action class="search-form__form" name="search-form">
+      <fieldset class="search-form__search">
+        <input type="text" class="search-form__item" name="search-item" placeholder="Search for .." />
       </fieldset>
     </form>
   </div>
@@ -16,26 +16,26 @@ import HeaderButton from "@/components/HeaderButton.vue";
 
 export default {
   components: {
-    HeaderButton: HeaderButton
+    HeaderButton
   }
 };
 </script>
 
 <style scoped>
-.searchform {
+.search-form {
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
 
-.searchform__image {
+.search-form__image {
 }
 
-.searchform__form {
+.search-form__form {
   margin-left: 16px;
 }
 
-.searchform__search {
+.search-form__search {
   outline: none;
   border: 0;
   display: flex;
@@ -43,21 +43,21 @@ export default {
   padding: 0;
 }
 
-.searchform__item {
+.search-form__item {
   outline: none;
   border: 0;
   padding: 0;
 }
 
-.searchform__item::placeholder {
-  font-family: Open Sans;
+.search-form__item::placeholder {
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
 }
 
-.searchform__button {
+.search-form__button {
   outline: none;
   border: 0;
   padding: 0;
