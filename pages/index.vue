@@ -2,22 +2,58 @@
   <main class="page">
     <Columns>
       <Column>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
       </Column>
       <Column>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
       </Column>
       <Column>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
       </Column>
     </Columns>
   </main>
@@ -33,8 +69,8 @@ export default {
   components: {
     Columns: Columns,
     Column: Column,
-    Card: Card
-  }
+    Card: Card,
+  },
 };
 </script>
 

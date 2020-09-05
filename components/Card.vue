@@ -1,9 +1,7 @@
 <template>
   <div class="card">
-    <h3 class="card__title">Nulla volutpat aliquam velit</h3>
-    <p
-      class="card__subtitle"
-    >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar ..</p>
+    <h3 class="card__title">{{title}}</h3>
+    <p class="card__subtitle">{{subtitle}}</p>
     <div class="card__info">
       <button type="button" class="card__user">OZ</button>
       <p class="card__date">21.01.2020</p>
@@ -12,6 +10,26 @@
 </template>
 
 <script>
+export default {
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    subtitle: {
+      type: String,
+      required: true,
+    },
+  },
+};
+// data() {
+//   return {
+//     title: "Nulla volutpat aliquam velit",
+//     subtitle:
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar ..",
+//   };
+// },
+//};
 </script>
 
 <style>
@@ -83,5 +101,3 @@
   color: #4dd86e;
 }
 </style>
-
- 
