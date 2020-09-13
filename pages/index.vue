@@ -3,54 +3,90 @@
     <Columns>
       <Column>
         <Card
+          id="1"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
         <Card
+          id="2"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
         <Card
+          id="3"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
         <Card
-          title="Nulla volutpat aliquam velit"
-          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
-        ></Card>
-      </Column>
-      <Column>
-        <Card
-          title="Nulla volutpat aliquam velit"
-          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
-        ></Card>
-        <Card
-          title="Nulla volutpat aliquam velit"
-          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
-        ></Card>
-        <Card
-          title="Nulla volutpat aliquam velit"
-          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
-        ></Card>
-        <Card
+          id="4"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
       </Column>
       <Column>
         <Card
+          id="5"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
         <Card
+          id="6"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
         <Card
+          id="7"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
         <Card
+          id="8"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+      </Column>
+      <Column>
+        <Card
+          id="9"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="10"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="11"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="12"
+          userName="OZ"
+          makedDate="21.04.2015"
           title="Nulla volutpat aliquam velit"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
@@ -70,6 +106,23 @@ export default {
     Columns: Columns,
     Column: Column,
     Card: Card,
+  },
+  data() {
+    return {
+      usersData: [
+        {
+          title: "OZ",
+          id: "1",
+        },
+      ],
+      userContent: [
+        {
+          title: "Nulla volutpat aliquam velit",
+          subtitle:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar ..",
+        },
+      ],
+    };
   },
 };
 </script>

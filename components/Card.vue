@@ -3,8 +3,8 @@
     <h3 class="card__title">{{title}}</h3>
     <p class="card__subtitle">{{subtitle}}</p>
     <div class="card__info">
-      <button type="button" class="card__user">OZ</button>
-      <p class="card__date">21.01.2020</p>
+      <nuxt-link to="/" class="card__user-link">{{userName}}</nuxt-link>
+      <p class="card__date">{{makedDate}}</p>
     </div>
   </div>
 </template>
@@ -20,16 +20,19 @@ export default {
       type: String,
       required: true,
     },
+    id: {
+      type: String,
+      required: true,
+    },
+    userName: {
+      type: String,
+      required: true,
+    },
+    makedDate: {
+      type: String,
+    },
   },
 };
-// data() {
-//   return {
-//     title: "Nulla volutpat aliquam velit",
-//     subtitle:
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar ..",
-//   };
-// },
-//};
 </script>
 
 <style>
@@ -75,9 +78,9 @@ export default {
   align-items: center;
 }
 
-.card__user {
+.card__user-link {
   border: 0;
-  padding: 0;
+  padding: 7px 0 0 0;
   margin-right: 12px;
   width: 28px;
   height: 28px;
@@ -89,6 +92,7 @@ export default {
   font-size: 10px;
   line-height: 12px;
   text-align: center;
+  text-decoration: none;
   color: #fff;
 }
 
