@@ -2,22 +2,94 @@
   <main class="page">
     <Columns>
       <Column>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card
+          id="1"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="2"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="3"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="4"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
       </Column>
       <Column>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card
+          id="5"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="6"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="7"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="8"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
       </Column>
       <Column>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card
+          id="9"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="10"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="11"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
+        <Card
+          id="12"
+          userName="OZ"
+          makedDate="21.04.2015"
+          title="Nulla volutpat aliquam velit"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
+        ></Card>
       </Column>
     </Columns>
   </main>
@@ -33,8 +105,8 @@ export default {
   components: {
     Columns: Columns,
     Column: Column,
-    Card: Card
-  }
+    Card: Card,
+  },
 };
 </script>
 

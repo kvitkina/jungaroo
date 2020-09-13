@@ -7,7 +7,7 @@
     <SearchForm />
     <bell />
     <div class="header__line header__line_pos_right header__line_theme_light"></div>
-    <user />
+    <User userName="Leonetta Lloyd" userImage="/oval.png"></User>
   </header>
 </template>
 
@@ -23,8 +23,8 @@ export default {
     Navigation,
     SearchForm,
     Bell,
-    User
-  }
+    User,
+  },
 };
 </script>
 
@@ -38,7 +38,7 @@ export default {
   align-items: center;
   background: #fff;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
-  border-radius: 8px 8px 0px 0px;  
+  border-radius: 8px 8px 0px 0px;
 }
 
 .header__line {

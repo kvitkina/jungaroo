@@ -1,9 +1,9 @@
 <template>
-<section class="column">
-  <Title></Title>
-  <div class="column__task">
-    <slot></slot>
-  </div>
+  <section class="column">
+    <Title></Title>
+    <div class="column__task">
+      <slot></slot>
+    </div>
   </section>
 </template>
 
@@ -11,14 +11,17 @@
 import Title from "@/components/Title.vue";
 
 export default {
-  
   components: {
     Title: Title,
-  }
+  },
 };
 </script>
 
 <style scoped>
+.column {
+  margin-right: 25px;
+}
+
 .column__task {
   width: 340px;
   max-height: 600px;

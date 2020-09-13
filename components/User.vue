@@ -1,11 +1,24 @@
 <template>
   <div class="user">
-    <img class="user__image" src="@/assets/images/oval.png" />
-    <h3 class="user__name">Leonetta Lloyd</h3>
+    <img class="user__image" :src='userImage' />
+    <h3 class="user__name">{{userName}}</h3>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  props: {
+    userName: {
+      type: String,
+      required: true,
+    },
+    userImage: {
+      type: String,
+      required: true,
+    },
+  },
+};
+</script>
 
 <style scoped>
 .user {
