@@ -1,11 +1,11 @@
 <template>
   <header class="header">
-    <logo></logo>
+    <logo />
     <div class="header__line header__line_pos_left header__line_theme_light"></div>
     <h1 class="header__title">Tasks</h1>
-    <navigation></navigation>
-    <SearchForm></SearchForm>
-    <bell></bell>
+    <navigation />
+    <SearchForm />
+    <bell />
     <div class="header__line header__line_pos_right header__line_theme_light"></div>
     <User userName="Leonetta Lloyd" userImage="/oval.png"></User>
   </header>
@@ -19,9 +19,9 @@ import Bell from "@/components/Bell.vue";
 import User from "@/components/User.vue";
 export default {
   components: {
-    Logo: Logo,
-    Navigation: Navigation,
-    SearchForm: SearchForm,
+    Logo,
+    Navigation,
+    SearchForm,
     Bell,
     User,
   },
@@ -36,7 +36,7 @@ export default {
   padding: 0 32px 0 36px;
   height: 68px;
   align-items: center;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
   border-radius: 8px 8px 0px 0px;
 }
