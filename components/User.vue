@@ -1,7 +1,7 @@
 <template>
   <div class="user">
-    <img class="user__image" src="@/assets/images/oval.png" />
-    <h3 class="user__name">Leonetta Lloyd</h3>
+    <img class="user__image" :src='userImage' />
+    <h3 class="user__name">{{userName}}</h3>
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
       type: String,
       required: true,
     },
-    image: {
+    userImage: {
       type: String,
       required: true,
     },
