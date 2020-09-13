@@ -5,7 +5,20 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  props: {
+    userName: {
+      type: String,
+      required: true,
+    },
+    image: {
+      type: String,
+      required: true,
+    },
+  },
+};
+</script>
 
 <style scoped>
 .user {

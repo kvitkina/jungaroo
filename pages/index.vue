@@ -107,23 +107,6 @@ export default {
     Column: Column,
     Card: Card,
   },
-  data() {
-    return {
-      usersData: [
-        {
-          title: "OZ",
-          id: "1",
-        },
-      ],
-      userContent: [
-        {
-          title: "Nulla volutpat aliquam velit",
-          subtitle:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar ..",
-        },
-      ],
-    };
-  },
 };
 </script>
 
