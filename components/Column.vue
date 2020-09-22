@@ -1,6 +1,6 @@
 <template>
   <section class="column">
-    <Title></Title>
+    <Title title="Backlog"/>
     <div class="column__task">
       <slot></slot>
     </div>
@@ -12,7 +12,7 @@ import Title from "@/components/Title.vue";
 
 export default {
   components: {
-    Title: Title,
+    Title
   },
 };
 </script>

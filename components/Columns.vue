@@ -8,7 +8,9 @@
 
 <style>
 .columns {
+  position: fixed;
+  left: 106px;
+  top: 102px;
   display: flex;
-  margin: 102px auto 0 106px;  
 }
 </style>
