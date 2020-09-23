@@ -4,9 +4,10 @@
 
 <script>
   export default {
-    data () {
-       return {
-         title: 'Backlog'
+    props: {
+       title: {
+         type: String,
+         required: true
        }  
     }
   }

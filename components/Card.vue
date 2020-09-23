@@ -41,7 +41,7 @@ export default {
   padding: 16px;
   box-sizing: border-box;
   background: #fff;
-  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.227355);
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.22);
   border-radius: 2px;
   margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@ export default {
   white-space: nowrap;
   overflow: hidden;
   margin: 0 0 12px 0;
-  font-family: Open Sans, Arial, serif;
+  font-family: 'Open Sans', Arial, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -65,7 +65,7 @@ export default {
 
 .card__subtitle {
   margin: 0 0 16px 0;
-  font-family: Open Sans, Arial, serif;
+  font-family: 'Open Sans', Arial, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -97,7 +97,7 @@ export default {
 }
 
 .card__date {
-  font-family: Open Sans, Arial, serif;
+  font-family: 'Open Sans', Arial, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
