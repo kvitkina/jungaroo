@@ -91,7 +91,7 @@
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
       </Column>
-    </Columns>
+    </Columns>    
   </main>
 </template>
 
