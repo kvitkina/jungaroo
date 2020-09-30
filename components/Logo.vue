@@ -1,8 +1,8 @@
 <template>
   <div class="logo">
-    <a href="#" class="logo__link">
+    <nuxt-link exact to="/" class="logo__link">
       <img class="logo__image" src="@/assets/images/logo.svg" />
-    </a>
+    </nuxt-link>
   </div>
 </template>
 
