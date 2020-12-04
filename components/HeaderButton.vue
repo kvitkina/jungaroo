@@ -1,10 +1,21 @@
 <template>
-  <button type="button" class="header-button header-button_theme_light">
+  <button
+    type="button"
+    class="header-button header-button_theme_light"
+    @click="openPopup"
+  >
     <slot></slot>
   </button>
 </template>
 
 <script>
+export default {
+  methods: {
+    openPopup() {
+      this.$store.commit("popups/open");
+    },
+  },
+};
 </script>
 
 <style scoped>

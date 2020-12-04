@@ -91,7 +91,7 @@
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar .."
         ></Card>
       </Column>
-    </Columns>    
+    </Columns>
   </main>
 </template>
 
@@ -103,9 +103,9 @@ import Card from "@/components/Card.vue";
 export default {
   layout: "jungarooMain",
   components: {
-    Columns: Columns,
-    Column: Column,
-    Card: Card,
+    Columns,
+    Column,
+    Card,
   },
 };
 </script>

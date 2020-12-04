@@ -1,12 +1,16 @@
 <template>
   <header class="header">
     <logo />
-    <div class="header__line header__line_pos_left header__line_theme_light"></div>
+    <div
+      class="header__line header__line_pos_left header__line_theme_light"
+    ></div>
     <h1 class="header__title">Tasks</h1>
     <navigation />
     <SearchForm />
     <bell />
-    <div class="header__line header__line_pos_right header__line_theme_light"></div>
+    <div
+      class="header__line header__line_pos_right header__line_theme_light"
+    ></div>
     <User userName="Leonetta Lloyd" userImage="/oval.png"></User>
   </header>
 </template>
