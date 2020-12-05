@@ -11,7 +11,8 @@
     <div
       class="header__line header__line_pos_right header__line_theme_light"
     ></div>
-    <User userName="Leonetta Lloyd" userImage="/oval.png"></User>
+    <!-- <User userName="Leonetta Lloyd" userImage="/oval.png"></User> -->
+    <User userImage="/oval.png"></User>
   </header>
 </template>
 
