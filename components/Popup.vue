@@ -17,7 +17,7 @@ export default {
     },
     closePopupClickOverlay(evt) {
       if (evt.target === evt.currentTarget) {
-        this.$store.commit("popups/close");
+        this.closePopup();
       }
     },
   },
