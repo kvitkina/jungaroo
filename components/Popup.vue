@@ -1,5 +1,5 @@
 <template>
-  <section class="popup">
+  <section class="popup" @click="closePopupClickOverlay">
     <div class="popup__content">
       <h4 class="popup__title">{{ title }}</h4>
       <button class="popup__close-button" @click="closePopup"></button>
@@ -14,6 +14,11 @@ export default {
   methods: {
     closePopup() {
       this.$store.commit("popups/close");
+    },
+    closePopupClickOverlay(evt) {
+      if (evt.target === evt.currentTarget) {
+        this.$store.commit("popups/close");
+      }
     },
   },
   props: {
