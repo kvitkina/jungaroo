@@ -1,36 +1,22 @@
 <template>
   <div class="card">
-    <h3 class="card__title">{{title}}</h3>
-    <p class="card__subtitle">{{subtitle}}</p>
+    <h3 class="card__title">{{card.title}}</h3>
+    <p class="card__subtitle">{{card.text}}</p>
     <div class="card__info">
-      <nuxt-link to="/" class="card__user-link">{{userName}}</nuxt-link>
-      <p class="card__date">{{makedDate}}</p>
+      <nuxt-link to="/" class="card__user-link">{{card.issuer}}</nuxt-link>
+      <p class="card__date">{{card.dueDate}}</p>
     </div>
   </div>
+
 </template>
 
 <script>
 export default {
   props: {
-    title: {
+    card: {
       type: String,
       required: true,
-    },
-    subtitle: {
-      type: String,
-      required: true,
-    },
-    id: {
-      type: String,
-      required: true,
-    },
-    userName: {
-      type: String,
-      required: true,
-    },
-    makedDate: {
-      type: String,
-    },
+    }
   },
 };
 </script>

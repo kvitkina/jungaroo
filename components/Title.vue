@@ -14,7 +14,8 @@
 </script>
 
 <style>
-  .title{
+  .title {
+    font-family: Open Sans, Arial, serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
