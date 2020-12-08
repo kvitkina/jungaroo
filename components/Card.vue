@@ -14,7 +14,7 @@
 export default {
   props: {
     card: {
-      type: String,
+      type: Object,
       required: true,
     }
   },
